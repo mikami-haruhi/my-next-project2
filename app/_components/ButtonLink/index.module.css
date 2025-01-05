@@ -1,0 +1,20 @@
+.button {
+    display: block; /*ブロック要素にする*/
+    padding: 20px 40px; /*変えてもいいかも*/
+    border-radius: var(--border-radius);
+    width: 300px; /*変えてもいいかも*/
+    background: url("/arrow-right.svg") no-repeat right 20px center,/*矢印の画像を右に表示*/
+    var(--color-button--primary);/*ボタンの色*/
+    color: var(--color-text-unpainted);/*テキストの色*/
+}
+
+.button:hover { /*hoverとは:（コンピューターでマウスカーソルを対象の上に）重ねる*/
+    opacity: 0.9; /*透明度を変える(変えてもいいかも）*/
+}
+
+@media (max-width: 640px) { /*画面幅が640px以下の時*/
+    .button {
+        padding: 16px 24px; /*変えてもいいかも*/
+        width: 100%; /*ボタンの幅を100%にする 主に、スマートフォンの狭い画面でボタンが見やすくなる効果があります。*/
+    }
+}
