@@ -47,6 +47,12 @@
   font-size: 1.5rem;
 }
 
+.newsLink {
+  position: absolute; /*.newsを起点に絶対位置(自由に動かせる）*/
+  right: -40px; /*右から40pxの位置に配置*/
+  bottom: -40px; /*要素を下側から40px分外側に移動します。*/
+}
+
 /*要素全体に影響（多分）要素全体の並び順を変えたい場合はここをいじる*/
 .list{
   border-bottom: 1px solid var(--color-border-light);
@@ -135,5 +141,12 @@
   .news{
     width: clac(100% - 32px);/*画面幅が 640px 以下 になると、.news の幅が親要素の幅から 32px を引いた値に変更されます。*/
     padding: 16px 24px;/*レイアウトによっては変える*/
+  }
+
+  .newsLink {
+    position: relative;
+    right: auto; /*要素を元の位置に戻す*/
+    bottom: auto; /*要素を元の位置に戻す*/
+    margin-top: 16px;
   }
 }
