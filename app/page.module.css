@@ -53,55 +53,6 @@
   bottom: -40px; /*要素を下側から40px分外側に移動します。*/
 }
 
-/*要素全体に影響（多分）要素全体の並び順を変えたい場合はここをいじる*/
-.list{
-  border-bottom: 1px solid var(--color-border-light);
-}
-.list:last-child{
-  border-bottom: none;
-}
-
-/*要素一つ一つのレイアウト　全体を変えた場合個々の要素を変えなければならなくなったらここ*/
-.link{
-  display: flex;
-  align-items: flex-start;
-  gap: 40px; /*画像とテキストの間隔(変えてもいいかも）*/
-  padding: 24px 0; /*変えてもよさそう(多分変えなくていい)*/
-}
-
-.image{
-  width: 200px;/*画像の大きさ（幅）変えてもいいかも*/
-  height: auto;/*画像の大きさ（高さ）変えてもいいかも*/
-  border-radius: var(--border-radius);/*角丸（変えてもいいかも）*/
-}
-
-.newsItemTitle{
-  font-size: 1.1rem;/*タイトルの大きさ（変えてもいいかも）*/
-  font-weight: bold;/*太さ（変えてもいいかも）*/
-  margin-bottom: 0.5rem;/*タイトルと日付の間隔（レイアウトによっては変えてもいいかも）*/
-}
-
-.meta{
-  display: flex;
-  align-items: center;
-  gap: 16px;/*カテゴリーネームと日付の間隔（レイアウトによっては変えるべきかも）*/
-}
-
-.tag{
-  background-color: var(--color-bg-sub);/*タグの背景色（変えてもいいかも）*/
-  padding: 4px 12px;/*タグの大きさ（変えてもいいかも）*/
-  border-radius: var(--border-radius);/*タグの角丸（変えてもいいかも）*/
-  white-space: nowrap;/*タグが長い場合の処理 折り返しを防ぐ*/
-  font-size: 1rem;/*タグの大きさ（変えてもいいかも）*/
-}
-
-.date{
-  display:flex;
-  align-items: center;
-  gap: 8px;/*日付とアイコンの間隔（レイアウトによっては変える）*/
-  margin: 0.8rem 0;/*日付と次の要素の間隔（レイアウトによっては変える）*/
-  font-size: 1rem;/*日付の大きさ（変えてもいいかも）*/
-}
 
 @media (max-width: 1000px){
   .news {

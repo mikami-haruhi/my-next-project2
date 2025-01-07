@@ -1,0 +1,7 @@
+.tag{
+    background-color: var(--color-bg-sub);/*タグの背景色（変えてもいいかも）*/
+    padding: 4px 12px;/*タグの大きさ（変えてもいいかも）*/
+    border-radius: var(--border-radius);/*タグの角丸（変えてもいいかも）*/
+    white-space: nowrap;/*タグが長い場合の処理 折り返しを防ぐ*/
+    font-size: 1rem;/*タグの大きさ（変えてもいいかも）*/
+}

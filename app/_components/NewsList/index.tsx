@@ -1,16 +1,7 @@
 import Image from "next/image";
 
-import styles from "./page.module.css";
-
-type News = {
-    id: string;
-    title: string;
-    category: {
-    name: string
-    };
-    publishedAt: string;
-    cretaedAt: string;
-};
+import styles from "./index.module.css";
+import { News } from "@/app/_libs/microcms";//型のインポート
 
 type Props = {
     news: News[];

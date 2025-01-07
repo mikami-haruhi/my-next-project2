@@ -1,0 +1,7 @@
+.date{
+    display:flex;
+    align-items: center;
+    gap: 8px;/*日付とアイコンの間隔（レイアウトによっては変える）*/
+    margin: 0.8rem 0;/*日付と次の要素の間隔（レイアウトによっては変える）*/
+    font-size: 1rem;/*日付の大きさ（変えてもいいかも）*/
+}
