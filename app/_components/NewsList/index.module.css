@@ -32,21 +32,7 @@
     gap: 16px;/*カテゴリーネームと日付の間隔（レイアウトによっては変えるべきかも）*/
 }
 
-.tag{
-    background-color: var(--color-bg-sub);/*タグの背景色（変えてもいいかも）*/
-    padding: 4px 12px;/*タグの大きさ（変えてもいいかも）*/
-    border-radius: var(--border-radius);/*タグの角丸（変えてもいいかも）*/
-    white-space: nowrap;/*タグが長い場合の処理 折り返しを防ぐ*/
-    font-size: 1rem;/*タグの大きさ（変えてもいいかも）*/
-}
 
-.date{
-    display:flex;
-    align-items: center;
-    gap: 8px;/*日付とアイコンの間隔（レイアウトによっては変える）*/
-    margin: 0.8rem 0;/*日付と次の要素の間隔（レイアウトによっては変える）*/
-    font-size: 1rem;/*日付の大きさ（変えてもいいかも）*/
-}
 
 @media(max-width: 640px){
     .link{

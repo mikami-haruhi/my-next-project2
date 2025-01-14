@@ -16,7 +16,7 @@ contents: News[]} = {
         name: "更新情報",
       },
       publishedAt: "2025/01/02",
-      cretaedAt: "2025/01/02",
+      createdAt: "2025/01/02",
     },
     {
       id: "2",
@@ -25,7 +25,7 @@ contents: News[]} = {
         name: "更新情報",
       },
       publishedAt: "2025/01/02",
-      cretaedAt: "2025/01/02",
+      createdAt: "2025/01/02",
     },
     {
       id: "3",
@@ -34,7 +34,7 @@ contents: News[]} = {
         name: "更新情報",
       },
       publishedAt: "2025/01/02",
-      cretaedAt: "2025/01/02",
+      createdAt: "2025/01/02",
     },
   ],
 };

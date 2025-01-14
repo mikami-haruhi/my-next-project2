@@ -10,6 +10,6 @@ export type News = {
     name: string
     };
     publishedAt: string;
-    cretaedAt: string;
+    createdAt: string;
 };  //News型を定義 変えたいならここをいじるといいけど、よくわからんからそのままでいいかも
 
